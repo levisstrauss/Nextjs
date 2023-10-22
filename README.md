@@ -164,423 +164,6 @@
         <div className="p-5 my-5 bg-sky-400 text-white text-xl hover:bg-sky-500">
            <AddToCard />
         </div>
-
-        ------------  tailwind element --------
-
-        Paddings:
-
-            p-1 // padding: 0.25rem; All padding
-            px-1 // padding-left: 0.25rem; padding-right: 0.25rem; Horizontal padding
-            py-1 // padding-top: 0.25rem; padding-bottom: 0.25rem; Vertical padding
-            pt-1 // padding-top: 0.25rem; Top padding
-            pr-1 // padding-right: 0.25rem; Right padding
-            pb-1 // padding-bottom: 0.25rem; Bottom padding
-            pl-1 // padding-left: 0.25rem; Left padding
-    
-        margins:
- 
-            m-1 // margin: 0.25rem; All margin
-            mx-1 // margin-left: 0.25rem; margin-right: 0.25rem; Horizontal margin
-            my-1 // margin-top: 0.25rem; margin-bottom: 0.25rem; Vertical margin
-            mt-1 // margin-top: 0.25rem; Top margin
-            mr-1 // margin-right: 0.25rem; Right margin
-            mb-1 // margin-bottom: 0.25rem; Bottom margin
-            ml-1 // margin-left: 0.25rem; Left margin
-
-        Text:
- 
-            text-1xl // font-size: 1.25rem; Text size
-            text-red-500 // color: #EF4444; Text color
-            text-center // text-align: center; Text align
-            text-bold // font-weight: bold; Text bold
-            text-italic // font-style: italic; Text italic
-            text-underline // text-decoration: underline; Text underline
-            text-white // color: #fff; Text color
-            text-black // color: #000; Text color
-            text-gray-500 // color: #6B7280; Text color
-            text-green-500 // color: #10B981; Text color
-            text-blue-500 // color: #3B82F6; Text color
-            text-yellow-500 // color: #F59E0B; Text color
-            text-red-500 // color: #EF4444; Text color
-
-        Flex:
-   
-            flex // display: flex; Flex
-            flex-row // flex-direction: row; Flex direction
-            flex-col // flex-direction: column; Flex direction
-            flex-wrap // flex-wrap: wrap; Flex wrap
-            flex-1 // flex: 1; Flex
-            flex-grow // flex-grow: 1; Flex grow
-            flex-shrink // flex-shrink: 1; Flex shrink
-            flex-basis // flex-basis: 1; Flex basis
-            justify-center // justify-content: center; Justify content
-            items-center // align-items: center; Align items
-            content-center // align-content: center; Align content
-            self-center // align-self: center; Align self
-            flex-auto // flex: 1 1 auto; Flex auto
-            flex-initial // flex: 0 1 auto; Flex initial
-            flex-none // flex: none; Flex none
-            flex-grow-0 // flex-grow: 0; Flex grow
-            flex-grow-1 // flex-grow: 1; Flex grow
-            flex-shrink-0 // flex-shrink: 0; Flex shrink
-            flex-shrink-1 // flex-shrink: 1; Flex shrink
-            flex-basis-0 // flex-basis: 0; Flex basis
-            flex-basis-1 // flex-basis: 1; Flex basis
-            flex-basis-auto // flex-basis: auto; Flex basis
-            flex-wrap-reverse // flex-wrap: wrap-reverse; Flex wrap
-            flex-wrap-no-wrap // flex-wrap: nowrap; Flex wrap
-            flex-wrap-wrap // flex-wrap: wrap; Flex wrap
-            flex-row-reverse // flex-direction: row-reverse; Flex direction
-            flex-row-reverse // flex-direction: row-reverse; Flex direction
-            flex-col-reverse // flex-direction: column-reverse; Flex direction
-            flex-grow-0 // flex-grow: 0; Flex grow
-            flex-grow-1 // flex-grow: 1; Flex grow
-            flex-shrink-0 // flex-shrink: 0; Flex shrink
-            flex-shrink-1 // flex-shrink: 1; Flex shrink
-            flex-basis-0 // flex-basis: 0; Flex basis
-            flex-basis-1 // flex-basis: 1; Flex basis
-            flex-basis-auto // flex
-
-        Grid:
-
-            grid // display: grid; Grid
-            grid-cols-1 // grid-template-columns: repeat(1, minmax(0, 1fr)); Grid columns
-            grid-cols-2 // grid-template-columns: repeat(2, minmax(0, 1fr)); Grid columns
-            grid-cols-3 // grid-template-columns: repeat(3, minmax(0, 1fr)); Grid columns
-            grid-cols-4 // grid-template-columns: repeat(4, minmax(0, 1fr)); Grid columns
-            grid-cols-5 // grid-template-columns: repeat(5, minmax(0, 1fr)); Grid columns
-            grid-cols-6 // grid-template-columns: repeat(6, minmax(0, 1fr)); Grid columns
-            grid-cols-7 // grid-template-columns: repeat(7, minmax(0, 1fr)); Grid columns
-            grid-cols-8 // grid-template-columns: repeat(8, minmax(0, 1fr)); Grid columns
-            grid-cols-9 // grid-template-columns: repeat(9, minmax(0, 1fr)); Grid columns
-            grid-cols-10 // grid-template-columns: repeat(10, minmax(0, 1fr)); Grid columns
-            grid-cols-11 // grid-template-columns: repeat(11, minmax(0, 1fr)); Grid columns
-            grid-cols-12 // grid-template-columns: repeat(12, minmax(0, 1fr)); Grid columns
-            grid-cols-none // grid-template-columns: none; Grid columns
-            gap-1 // gap: 0.25rem; Grid gap
-            gap-2 // gap: 0.5rem; Grid gap
-            gap-3 // gap: 0.75rem; Grid gap
-            gap-4 // gap: 1rem; Grid gap
-            gap-5 // gap: 1.25rem; Grid gap
-            gap-6 // gap: 1.5rem; Grid gap
-            gap-7 // gap: 1.75rem; Grid gap
-            gap-8 // gap: 2rem; Grid gap
-            gap-9 // gap: 2.25rem; Grid gap
-            gap-10 // gap: 2.5rem; Grid gap
-            gap-11 // gap:
-
-        Color:
-
-            bg-white // background-color: #fff; Background color
-            bg-black // background-color: #000; Background color
-            bg-gray-500 // background-color: #6B7280; Background color
-            bg-green-500 // background-color: #10B981; Background color
-            bg-blue-500 // background-color: #3B82F6; Background color
-            bg-yellow-500 // background-color: #F59E0B; Background color
-            bg-red-500 // background-color: #EF4444; Background color
-            bg-transparent // background-color: transparent; Background color
-            bg-current // background-color: currentColor; Background color
-            bg-gray-500 // background-color: #6B7280; Background color
-            bg-green-500 // background-color: #10B981; Background color
-            bg-blue-500 // background-color: #3B82F6; Background color
-            bg-yellow-500 // background-color: #F59E0B; Background color
-            bg-red-500 // background-color: #EF4444; Background color
-            bg-white // background-color: #fff; Background color
-            bg-black // background-color: #000; Background color
-            bg-gray-500 // background-color: #6B7280; Background color
-            bg-green-500 // background-color: #10B981; Background color
-            bg-blue-500 // background-color: #3B82F6; Background color
-            bg-yellow-500 // background-color: #F59E0B; Background color
-            bg-red-500 // background-color: #EF4444; Background color
-            bg-transparent // background-color: transparent; Background color
-            bg-current // background-color: currentColor; Background color
-            bg-gray-500 // background-color: #6B7280; Background color
-            bg-green-500 // background-color: #10B981; Background color
-            bg-blue-500 // background-color: #3B82F6; Background color
-            bg-yellow-500 // background-color: #F59E0B; Background color
-            bg-red-500 // background-color: #EF4444; Background color
-            bg-white // background-color: #fff; Background color
-            bg-black // background-color: #000; Background color
-            bg-gray-500 // background-color: #6
-
-        Border:
-
-            border // border-width: 1px; Border width
-            border-0 // border-width: 0; Border width
-            border-2 // border-width: 2px; Border width
-            border-4 // border-width: 4px; Border width
-            border-8 // border-width: 8px; Border width
-            border-t // border-top-width: 1px; Border top width
-            border-t-0 // border-top-width: 0; Border top width
-            border-t-2 // border-top-width: 2px; Border top width
-            border-t-4 // border-top-width: 4px; Border top width
-            border-t-8 // border-top-width: 8px; Border top width
-            border-r // border-right-width: 1px; Border right width
-            border-r-0 // border-right-width: 0; Border right width
-            border-r-2 // border-right-width: 2px; Border right width
-            border-r-4 // border-right-width: 4px; Border right width
-            border-r-8 // border-right-width: 8px; Border right width
-            border-b // border-bottom-width: 1px; Border bottom width
-            border-b-0 // border-bottom-width: 0; Border bottom width
-            border-b-2 // border-bottom-width: 2px; Border bottom width
-            border-b-4 // border-bottom-width: 4px; Border bottom width
-            border-b-8 // border-bottom-width: 8px; Border bottom width
-            border-l // border-left-width: 1px; Border left width
-            border-l-0 // border-left-width: 0; Border left width
-            border-l-2 // border-left-width: 2px; Border left width
-            border-l-4 // border-left-width: 4px; Border left width
-            border-l-8 // border-left-width: 8px; Border left width
-            border-solid // border-style: solid; Border style
-            border-dashed // border-style: dashed; Border style
-            border-dotted // border-style: dotted; Border style
-            border-double // border-style: double; Border style
-            border-none // border-style: none; Border style
-            border-collapse // border-collapse: collapse; Border collapse
-            border-separate //
-
-        Rounded:
-
-            rounded // border-radius: 0.25rem; Border radius
-            rounded-none // border-radius: 0; Border radius
-            rounded-sm // border-radius: 0.125rem; Border radius
-            rounded // border-radius: 0.25rem; Border radius
-            rounded-md // border-radius: 0.375rem; Border radius
-            rounded-lg // border-radius: 0.5rem; Border radius
-            rounded-xl // border-radius: 0.75rem; Border radius
-            rounded-2xl // border-radius: 1rem; Border radius
-            rounded-3xl // border-radius: 1.5rem; Border radius
-            rounded-full // border-radius: 9999px; Border radius
-            rounded-t-none // border-top-left-radius: 0; border-top-right-radius: 0; Border top left radius
-            rounded-r-none // border-top-right-radius: 0; border-bottom-right-radius: 0; Border top right radius
-            rounded-b-none // border-bottom-right-radius: 0; border-bottom-left-radius: 0; Border bottom right radius
-            rounded-l-none // border-top-left-radius: 0; border-bottom-left-radius: 0; Border top left radius
-            rounded-t-sm // border-top-left-radius: 0.125rem; border-top-right-radius: 0.125rem; Border top left radius
-            rounded-r-sm // border-top-right-radius: 0.125rem; border-bottom-right-radius: 0.125rem; Border top right radius
-            rounded-b-sm // border-bottom-right-radius: 0.125rem; border-bottom-left-radius: 0.125rem; Border bottom right radius
-            rounded-l-sm // border-top-left-radius: 0.125rem; border-bottom-left-radius: 0.125rem; Border top left radius
-            rounded-t // border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; Border top left radius
-            rounded-r // border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; Border top right radius
-            rounded-b // border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem; Border bottom right radius
-            rounded-l // border-top-left-radius: 0.25rem; border-bottom-left
-        
-        Shadow:
-
-            shadow-sm // box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); Box shadow
-            shadow // box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); Box shadow
-            shadow-md // box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); Box shadow
-            shadow-lg // box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); Box shadow
-            shadow-xl // box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); Box shadow
-            shadow-2xl // box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); Box shadow
-            shadow-inner // box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06); Box shadow
-            shadow-none // box-shadow: none; Box shadow
-            shadow // box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); Box shadow
-            shadow-md // box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); Box shadow
-            shadow-lg // box-shadow: 0 10px
-
-        Opacity:
-
-            opacity-0 // opacity: 0; Opacity
-            opacity-5 // opacity: 0.05; Opacity
-            opacity-10 // opacity: 0.1; Opacity
-            opacity-20 // opacity: 0.2; Opacity
-            opacity-25 // opacity: 0.25; Opacity
-            opacity-30 // opacity: 0.3; Opacity
-            opacity-40 // opacity: 0.4; Opacity
-            opacity-50 // opacity: 0.5; Opacity
-            opacity-60 // opacity: 0.6; Opacity
-            opacity-70 // opacity: 0.7; Opacity
-            opacity-75 // opacity: 0.75; Opacity
-            opacity-80 // opacity: 0.8; Opacity
-            opacity-90 // opacity: 0.9; Opacity
-            opacity-95 // opacity: 0.95; Opacity
-            opacity-100 // opacity: 1; Opacity
-
-        Cursor:
-   
-            cursor-auto // cursor: auto; Cursor
-            cursor-default // cursor: default; Cursor
-            cursor-pointer // cursor: pointer; Cursor
-            cursor-wait // cursor: wait; Cursor
-            cursor-text // cursor: text; Cursor
-            cursor-move // cursor: move; Cursor
-            cursor-not-allowed // cursor: not-allowed; Cursor
-            cursor-auto // cursor: auto; Cursor
-            cursor-default // cursor: default; Cursor
-            cursor-pointer // cursor: pointer; Cursor
-            cursor-wait // cursor: wait; Cursor
-            cursor-text // cursor: text; Cursor
-            cursor-move // cursor: move; Cursor
-            cursor-not-allowed // cursor: not-allowed; Cursor
-            cursor-auto // cursor: auto; Cursor
-            cursor-default // cursor: default; Cursor
-            cursor-pointer // cursor: pointer; Cursor
-            cursor-wait // cursor: wait; Cursor
-            cursor-text // cursor: text; Cursor
-            cursor-move // cursor: move; Cursor
-            cursor-not-allowed // cursor: not-allowed; Cursor
-            cursor-auto // cursor: auto; Cursor
-            cursor-default // cursor: default; Cursor
-            cursor-pointer // cursor: pointer; Cursor
-            cursor-wait // cursor: wait; Cursor
-            cursor-text // cursor: text; Cursor
-            cursor-move // cursor: move; Cursor
-            cursor-not-allowed // cursor: not-allowed; Cursor
-            cursor-auto // cursor: auto; Cursor
-            cursor-default // cursor: default; Cursor
-            cursor-pointer // cursor: pointer; Cursor
-            cursor-wait // cursor: wait; Cursor
-            cursor-text // cursor: text; Cursor
-            cursor-move // cursor: move; Cursor
-            cursor-not-allowed // cursor: not-allowed; Cursor
-            cursor-auto // cursor: auto; Cursor
-            cursor-default // cursor: default; Cursor
-            cursor-pointer // cursor: pointer; Cursor
-            cursor-wait // cursor: wait; Cursor
-            cursor-text // cursor: text; Cursor
-            cursor-move // cursor: move; Cursor
-            cursor-not-allowed // cursor: not-allowed; Cursor
-            cursor-auto // cursor: auto; Cursor
-            cursor-default // cursor: default; Cursor
-            cursor-pointer // cursor: pointer; Cursor
-            cursor-wait // cursor: wait; Cursor
-            cursor-text // cursor: text;
-
-        Width:
-   
-            w-0 // width: 0; Width
-            w-1 // width: 0.25rem; Width
-            w-2 // width: 0.5rem; Width
-            w-3 // width: 0.75rem; Width
-            w-4 // width: 1rem; Width
-            w-5 // width: 1.25rem; Width
-            w-6 // width: 1.5rem; Width
-            w-7 // width: 1.75rem; Width
-            w-8 // width: 2rem; Width
-            w-9 // width: 2.25rem; Width
-            w-10 // width: 2.5rem; Width
-            w-11 // width: 2.75rem; Width
-            w-12 // width: 3rem; Width
-            w-14 // width: 3.5rem; Width
-            w-16 // width: 4rem; Width
-            w-20 // width: 5rem; Width
-            w-24 // width: 6rem; Width
-            w-28 // width: 7rem; Width
-            w-32 // width: 8rem; Width
-            w-36 // width: 9rem; Width
-            w-40 // width: 10rem; Width
-            w-44 // width: 11rem; Width
-            w-48 // width: 12rem; Width
-            w-52 // width: 13rem; Width
-            w-56 // width: 14rem; Width
-            w-60 // width: 15rem; Width
-            w-64 // width: 16rem; Width
-            w-72 // width: 18rem; Width
-            w-80 // width: 20rem; Width
-            w-96 // width: 24rem; Width
-            w-auto // width: auto; Width
-            w-px // width: 1px; Width
-            w-1/2 // width: 50%; Width
-            w-1/3 // width: 33.333333%; Width
-            w-2/3 // width: 66.666667%; Width
-            w-1/4 // width: 25%; Width
-            w-2/
-
-        Height:
-
-            h-0 // height: 0; Height
-            h-1 // height: 0.25rem; Height
-            h-2 // height: 0.5rem; Height
-            h-3 // height: 0.75rem; Height
-            h-4 // height: 1rem; Height
-            h-5 // height: 1.25rem; Height
-            h-6 // height: 1.5rem; Height
-            h-7 // height: 1.75rem; Height
-            h-8 // height: 2rem; Height
-            h-9 // height: 2.25rem; Height
-            h-10 // height: 2.5rem; Height
-            h-11 // height: 2.75rem; Height
-            h-12 // height: 3rem; Height
-            h-14 // height: 3.5rem; Height
-            h-16 // height: 4rem; Height
-            h-20 // height: 5rem; Height
-            h-24 // height: 6rem; Height
-            h-28 // height: 7rem; Height
-            h-32 // height: 8rem; Height
-            h-36 // height: 9rem; Height
-            h-40 // height: 10rem; Height
-            h-44 // height: 11rem; Height
-            h-48 // height: 12rem; Height
-            h-52 // height: 13rem; Height
-            h-56 // height: 14rem; Height
-            h-60 // height: 15rem; Height
-            h-64 // height: 16rem; Height
-            h-72 // height: 18rem; Height
-            h-80 // height: 20rem; Height
-            h-96 // height: 24rem; Height
-            h-auto // height: auto; Height
-            h-px // height: 1px; Height
-            h-1/2 // height: 50%; Height
-            h-1/3 // height: 33.333333%; Height
-            h-2/3 // height: 66.666667%; Height
-            h-1/4 // height: 25%; Height
-            h-2/
-
-        Thickness:
-
-            font-thin // font-weight: 100; Font weight
-            font-extralight // font-weight: 200; Font weight
-            font-light // font-weight: 300; Font weight
-            font-normal // font-weight: 400; Font weight
-            font-medium // font-weight: 500; Font weight
-            font-semibold // font-weight: 600; Font weight
-            font-bold // font-weight: 700; Font weight
-            font-extrabold // font-weight: 800; Font weight
-            font-black // font-weight: 900; Font weight
-
-        table:
-            table-borbered // border: 1px solid #e2e8f0; Border
-            table-auto // table-layout: auto; Table layout
-            table-fixed // table-layout: fixed; Table layout
-            table-caption // display: table-caption; Display
-            table-cell // display: table-cell; Display
-            table-column // display: table-column; Display
-            table-column-group // display: table-column-group; Display
-            table-footer-group // display: table-footer-group; Display
-            table-header-group // display: table-header-group; Display
-            table-row-group // display: table-row-group; Display
-            table-row // display: table-row; Display
-            table-auto // table-layout: auto; Table layout
-            table-fixed // table-layout: fixed; Table layout
-            table-caption // display: table-caption; Display
-            table-cell // display: table-cell; Display
-            table-column // display: table-column; Display
-            table-column-group // display: table-column-group; Display
-            table-footer-group // display: table-footer-group; Display
-            table-header-group // display: table-header-group; Display
-            table-row-group // display: table-row-group; Display
-            table-row // display: table-row; Display
-            table-auto // table-layout: auto; Table layout
-            table-fixed // table-layout: fixed; Table layout
-            table-caption // display: table-caption; Display
-            table-cell // display: table-cell; Display
-            table-column // display: table-column; Display
-            table-column-group // display: table-column-group; Display
-            table-footer-group // display: table-footer-group; Display
-            table-header-group // display: table-header-group; Display
-            table-row-group // display: table-row-group; Display
-            table-row // display: table-row; Display
-            table-auto // table-layout: auto; Table layout
-            table-fixed // table-layout: fixed; Table layout
-            table-caption // display: table-caption; Display
-            table-cell // display: table-cell; Display
-            table-column // display: table-column; Display
-            table-column-group // display: table-column-group; Display
-            table-footer-group // display: table-footer-group; Display
-            table-header-group // display: table-header-group; Display
-            table-row-group // display: table-row-group; Display
-            table-row // display: table-row; Display
-            table-auto // table-layout: auto; Table layout
-            table-fixed // table-layout:
 ---
 9. DaisyUI
 ---
@@ -1076,3 +659,437 @@
   
       Note: use this technic to handle unexpected errors in only some of the 
             part of your appplication
+
+------------------ API building with Next.js -------------------------------
+---
+18. API Routes:
+---
+     - The http request in nextjs is handle by using the route file
+     ---------- Getting all users ------------
+
+     -app: folder
+        - api: folder
+            - users: folder
+                export function GET(request: NextRequest) {
+                return NextResponse.json( [
+                    { id: 1, name: 'John Doe' },
+                    { id: 2, name: 'Jane Doe' },
+                ]);
+            [id]: folder
+                route.ts => The component
+                export function GET(request: NextRequest) {
+                    const { id } = request.params;
+                    return NextResponse.json( { id, name: 'John Doe' });
+                }
+
+     - Browser access: localhost:3000/api/users
+    
+     Note: All the api routes specific to an id must created in the id folder
+           and without the id must be created in the users folder
+
+           All the CRUD related code can be found in the api folder.
+
+     ------------- Validating  Request with Zod ----------------
+     Documentation: zod.dev
+     Install: npm i zod
+  
+     We can use Zod tro validate the request body and the request query params
+     which can then make the validation much easier.
+    
+        - app: folder
+            - api: folder
+                - users: folder
+                   
+                    - schema.ts => The component
+                        import {z} from "zod";
+
+                        const schema = z.object({
+                            name: z.string().min(3).max(20).optional(),
+                        });
+                        export default schema;
+
+                [id]: folder
+                 - route.ts => The component
+
+                 // Update user by id
+                    export async function PUT(request: NextRequest, {params}: {params: {id: number}}) {
+                    // Validate the request body against the interface
+                    const body = await request.json();
+
+                        const validation = schema.safeParse(body)
+                    
+                        if (!validation.success)
+                            return NextResponse.json(validation.error.errors, {status: 400});
+                        if (params.id > 10)
+                            return NextResponse.json({error: 'User Not found'}, {status: 404});
+                    
+                        return NextResponse.json({id: params.id, name: body.name}, {status: 201});
+                    }
+
+
+                        export function POST(request: NextRequest) {
+                            const { body } = request;
+                            const result = schema.safeParse(body);
+                            if (!result.success) {
+                                return NextResponse.badRequest(result.error);
+                            }
+                            return NextResponse.json(body);
+                        }
+---
+19. Integrating Prisma for data modeling with mysql
+---
+    ---- Documentation: prisma.io ----
+
+    Prisma is a database toolkit that consists of these tools:
+    - Prisma Client: An auto-generated and type-safe query builder for Node.js 
+      and TypeScript
+    - Prisma Migrate: Declarative data modeling and migrations
+    - Prisma Studio: GUI to view and edit data in your database
+    - Prisma CLI: CLI to perform migrations and lift your Prisma schema
+
+    - Install: npm i prisma 
+    - Initialize: npx prisma init => To initialize prisma in our app
+    - prisma connection string:
+        https://www.prisma.io/docs/reference/database-reference/connection-urls
+        and follow the configuration for mysql
+    - set up mysql as provider in the schema.prisma file
+
+    - We can run npm i prisma format => to format our prisma file
+    - Prisma model documentation:
+      https://www.prisma.io/docs/concepts/components/prisma-schema/data-model
+
+    ----------- Start migration ----------
+
+       - npx prisma migrate dev  
+       - give a name to the migration
+       - It is better to use DataGrip to manage the database
+       - npx prisma format => to format the prisma file
+       - npx prisma migrate dev => to migrate the database
+
+    -------- Creation a prisma client ------------
+
+       - To efficiently work with the database, we need to create a prisma client in 
+         the prisma folder. We can use the prisma client to interact with the database.
+
+       Note: It is very good to work with prisma client because when we change the schema
+             of the database, the prisma client will automatically update the schema of the
+             database.
+       - Prisma client docs:
+         https://prisma.io/docs/guides/other/troubleshooting-orm/help-articles/nextjs-prisma-client-dev-practices
+
+       Recap:
+         - npx i prisma
+         - npx i format
+         - npx prisma init => to initialize prisma in our app
+             - That will create prisma folder and .env file
+             - Go in the .env file and set up the connection string and don't forget to put .env
+               gitignore file to avoid sending it to github
+             - In the prisma folder, configure the prisma client in a new file client.ts
+         - Add your model in the schema.prisma file in prism folder
+         - npx prisma format => to format the prisma file
+         - Configure the prisma client in the api folder
+         - npx prisma migrate dev => to migrate the database
+         - give a name to the migration
+         - If the table is successfully created, test it using postman
+
+         - In each api component folder, we can protect the schema, using zok
+           to validate the request body and the request query params
+
+         - prism schema => protected by zok schema in the api folder => which then validate
+           everyting in the route file
+---
+20. Uploading files
+---
+      - Cloud platform: 
+           - cloudinary.com    => create an account
+           - Amazon s3
+           - Google cloud storage
+           - Microsoft Azure storage
+
+      ----------- install cloudinary ------------
+
+      - After creating an account
+      - npm i next-cloudinary
+      - Go to docs: https://next.cloudinary.dev/installation
+      - Copy cloud the configuation and replace it in .env, change the name of the variable
+        to NEXT_PUBLIC_CLOUDINARY_URL 
+      - app folder:
+         - Create a folder called upload
+         - page.tsx => The component
+           import { CldUploadWidget } from "next-cloudinary";
+           const UploadPage = () => {
+                return (
+                    <CldUploadWidget uploadPreset=''></CldUploadWidget>
+                )
+            }
+         - Where to find the preset we are using:
+              - Go to website => setting => upload => upload preset => 
+                click on add upload preset
+              - We have the name of the upload preset
+              - Copy it and change the signed mode to unsigned
+              - In the folder section, we can choose the folder where we want to upload
+                but for simplicity, we can leave it empty
+              - Save 
+              - The preset is now ready to be used and will be placed here
+                 <CldUploadWidget uploadPreset=''></CldUploadWidget>
+
+              - Upload page content code
+                'use client'
+                import { CldUploadWidget } from "next-cloudinary";
+
+                const UploadPage = () => {
+                    return (
+                        <CldUploadWidget uploadPreset='gcku3tlc'>
+                            {({ open }) =>
+                            <button
+                                className='btn btn-primary'
+                                onClick={() => open()}>
+                                Upload
+                            </button> 
+                           }
+                        </CldUploadWidget>
+                    )
+                }
+         Note: We use client here because of the button. If everything is correctly 
+               set up, after clicking on the button, we window should open allowing us 
+               to upload files
+         NB: The documentation est better to write the code in the page.tsx file but
+             for simplicity, we can write it in the upload folder
+
+         - To see the image => cloudinary.com => media library => we can see the image
+           we just uploaded
+
+      ------------------ Show the uploaded image ------------------
+
+      - Since every image we upload is combined with an id
+        The code is self explanatory
+
+        export async function GET(request: NextRequest){
+        const products = await prisma.product.findMany();
+        return NextResponse.json(products);
+        }
+
+        import { CldUploadWidget, CldImage } from "next-cloudinary";
+
+        export async function POST(request: NextRequest){
+        const body = await request.json();
+        const validation = schema.safeParse(body)
+        if (!validation.success)
+        return NextResponse.json(validation.error.errors, {status: 400});
+        
+             const newProduct = await prisma.product.create({
+                data: {
+                    name: body.name,
+                    price: body.price,
+                }
+            })
+            return NextResponse.json(newProduct, {status: 201});
+        }
+      
+      --------------- Customize the upload widget ----------------
+       https://demo.cloudinary.com/uw/#/
+       We can also customize ourserlve 
+              options={{
+                sources: ['local'],
+                multiple: false,
+                maxFiles: 5,
+              }}
+---
+21. Authentication with next-auth
+---
+     ------ Next Auth basic set up ------
+     - Documentation: https://next-auth.js.org/getting-started/example
+     - npm i next-auth
+     - Create a file called [...nextauth].ts in the api folder
+     - Set up the route handler:
+        - https://next-auth.js.org/configuration/initialization#route-handlers-app
+        - /app/api/auth/[...nextauth]/route.ts
+        - Configure the route.ts
+            import NextAuth from "next-auth"
+            const handler = NextAuth({});
+            export { handler as GET, handler as POST }
+        - set up the .env file
+            NEXTAUTH_URL="http://localhost:3000"
+            NEXTAUTH_SECRET=VFelfHAK7bXo3Dr+EWdEnJs4+VrBfs1slCxsBEAztpQ=
+        - To generate the secret key we can use openssl
+            openssl rand -base64 32 in the terminal
+
+     --------- Configure a Google Provider ---------
+     - We can use a provider to easily authenticate the user
+     - On nextauth => Provider section => Google => which is the one we are using 
+        website: https://next-auth.js.org/providers/google
+     - Click the configuration link to set up a new project in google cloud platform
+     - Configure a consent screen which ois the screen Google will show to the user
+     - Choose external for devleopment mode only and internal for production
+     - Set up the app name and support email which is your personal one
+     - We can leave blank of the rest of the fields in dev mode and only provide
+       deveoloer contact email which is your personal email
+     - Save to continue
+     
+     ----- Configure scope -------
+     Which kind of information we want to access from the user
+     - Click add and remove scopes
+        - Select email, profile....
+        - update
+        - Save and continue
+
+     -----Add Test user ------
+     - Add email of the test user
+     - Save and continue
+     - Go back dashboard
+
+     ------ create credentials ------
+     - Click on create credentials
+     - Create credentials tab
+     - Choose Auth client ID
+     - Application type: Web application
+     - App Name: .....
+     - Add URI: http://localhost:3000
+     - Authorized redirect URIs: http://localhost:3000/api/auth/callback/google
+       We can find these URIs in the nextauth documentation there is one for dev mod
+       and one for production
+     - Create
+     - Copy these credential into your .env file
+        GOOGLE_CLIENT_ID=
+        GOOGLE_CLIENT_SECRET=
+   
+     -------- Create a Google provider ---------
+     - import: import GoogleProvider from "next-auth/providers/google"; in the route.ts file
+     - Set up the provider:
+        providers: [
+            GoogleProvider({
+                clientId: process.env.GOOGLE_CLIENT_ID,
+                clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+            }),
+        ],
+     - Add sign in in the navbar:
+        <Link href="/api/auth/signin">Sign in</Link>
+     - Voila we just have a test user that can sign in using google
+
+     -------- Accessing the auth token ---------
+
+     - To access the auth session in the client side, we have to go route layout file
+     - Import the session: import {SessionProvider } from "next-auth/react";
+     - Wrap everything in the session provider
+        <SessionProvider session={pageProps.session}>
+            <NavBar />
+            <main className='p-5'>
+                {children}
+            </main>
+        </SessionProvider>
+     - This will create an error for that we have to wrap the session Provider inside
+       of a separate component
+     - In the app folder:
+         - Add new folder: auth
+         - Provider.tsx => The component
+            import {SessionProvider } from "next-auth/react";
+            interface Props {
+                children: React.ReactNode;
+            }
+            const AuthProvider = ({ children }: Props) => {
+                return (
+                    <SessionProvider session={pageProps.session}>
+                        {children}
+                    </SessionProvider>
+                )
+            }
+            export default AuthProvider;
+
+        - In the layout file:
+            import AuthProvider from "../auth/Provider";
+            <AuthProvider>
+                <NavBar />
+                <main className='p-5'>
+                    {children}
+                </main>
+            </AuthProvider>
+
+     ----- Accessing the session in the navbar in client side -----
+
+        - In the navbar component file:
+            import {useSession} from "next-auth/react";
+            const NavBar = () => {
+                const {data: session, status} = useSession(); // Hook used to get the session
+                return (
+                    <div className='flex bg-slate-200 p-5'>
+                        <Link href="/" className='mr-5'>Next.js</Link>
+                        <Link href="/users" >Users</Link>
+                        {session && <Link href="/api/auth/signout" className='ml-auto'>Sign out</Link>}
+                        ... Render others condition here
+                    </div>
+                )
+            }
+
+     -------------- Accessing the auth session in server side ------
+ 
+     - In the home page:
+        import {getServerSession} from "next-auth";
+
+        export default async function Home() {
+        const session = await  getServerSession(authOptions); => Use to get the session
+            return (
+                <main>
+                    <h1>Hello {session && <span>{session.user!.name}</span>}</h1>
+                    <Link href="/users">Users</Link>
+                    <ProductCard />
+                </main>
+            )
+        }
+
+     -------- Sign out the user ------
+
+     - Navbar component:
+       Updated code
+
+       {status === 'authenticated' &&
+            <div>
+                {session.user!.name}
+                <Link href="/api/auth/signout" className="ml-3">Logout</Link> 
+            </div>
+        }
+   
+     ------- protecting routes -------
+     Using middleware to protect routes
+      - Create a middleware.ts file outside of the app folder
+      export { default } from "next-auth/middleware";
+
+        export const config = {
+        // *: 0 or more params
+        // +: 1 or more params
+        // ?: 0 or 1 params
+        matcher: ['/dashboard/:path*']
+        }
+
+      --------- Prisma Adapter to store real user credentials -------
+        - In the API Route file:
+            import { PrismaAdapter } from "@next-auth/prisma-adapter"
+            import { PrismaClient } from "@prisma/client"
+
+            const prisma = new PrismaClient()
+
+            export default NextAuth({
+                providers: [
+                    GoogleProvider({
+                        clientId: process.env.GOOGLE_CLIENT_ID,
+                        clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+                    }),
+                ],
+                adapter: PrismaAdapter(prisma),
+            })
+        - Docs: https://next-auth.js.org/v3/adapters/prisma
+
+      - Time to set up the user information to store in the database
+      - If we want to drop a table we can first delete it from the schema
+      - run: npx prisma migrate dev
+
+        
+        
+
+
+       
+        
+                 
+                
+   
+    
+    
